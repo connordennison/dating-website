@@ -7,7 +7,7 @@ const List = () => {
   if (error) return <div className='error'>Failed to load entries.</div>
   if (!data) return <div className='muted'>Loading...</div>
   return (
-    <div>
+    <div className="form">
       <ul>
         {data['items'].map((item) => (
           <li className='reason' key={Math.round(Math.random() * 9999).toString()}><span>{item.message}</span><span className='muted'> - {item.name} <span className='muteded'>{item.email}</span></span></li>

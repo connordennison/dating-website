@@ -12,6 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Form></Form>
+      <p>Want something removed? <a href="mailto:me@cnnd.co.uk">Send me an email</a>.</p>
       <List></List>
     </div>
   )
