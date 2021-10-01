@@ -1,3 +1,4 @@
+import 'water.css/out/dark.min.css'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
