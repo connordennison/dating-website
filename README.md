@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# date connor today [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fconnordennison%2Fdate-connor-today&env=DETA_PROJECT_KEY)
+## why did i make this again??
 
-## Getting Started
+### how to do the thing
+1. Create a [Vercel](https://vercel.com/) account
+2. Create a [deta](https://deta.sh) account
+3. Get your deta project key (it should appear on screen, I recommend creating a new project for this)
+4. Click the deploy with Vercel button at the top of this markdown file - it will open a new page letting you (surprise surprise) deploy the project to Vercel.
+5. In that page there will be a box asking for your deta token. This will allow the project to use deta base to store entries.
+6. Click the thing that says something like deploy
+7. Change the domain (optional) by going to the project settings and linking your domain. This is just general use of Vercel so I won't go into specifics.
 
-First, run the development server:
+### contributing
+**tbh there's not really a point to contributing to this repo.** This was a site I made just for laughs because I bought [a funny domain](https://dateconnor.today).
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+You can still feel free to contribute, and I'll probably look at contributions, but **95% of PRs won't be merged**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### what to do if i broke something (and you really care about this repo)
+- open an issue, if i don't respond [contact me on twitter](https://twitter.com/cnnrde) (my dms are open)

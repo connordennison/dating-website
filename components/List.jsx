@@ -9,6 +9,7 @@ const List = () => {
   return (
     <div className="form">
       <ul>
+        <li className='reason title'>{data.count} entries</li>
         {data['items'].map((item) => (
           <li className='reason' key={Math.round(Math.random() * 9999).toString()}><span>{item.message}</span><span className='muted'> - {item.name} <span className='muteded'>{item.email}</span></span></li>
         ))}
